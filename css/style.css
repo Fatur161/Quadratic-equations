@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Geologica:100,regular,700);
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #b440c7,#a359e1,#8a6ff8);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    min-height: 100vh;
+}
+
+.content-container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.input-text{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.input-value{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-width: 10%;
+}
+
+.input-btn{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 35px 10px 35px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    color: #fff;
+    background: -webkit-linear-gradient(90deg, #3b0fd2,#006bef,#33a1ec);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #3b0fd2,#006bef,#33a1ec);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all .3s;
+}
+
+.input-btn:hover{
+    transform: scale(1.1);
+}
+
+.solve-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 65%;
+    margin: 2rem auto 0 auto;
+}
+
+.solve-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #006bef;
+    text-align: center;
+}
+
+.solve-content-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.none{
+    display: none;
+}

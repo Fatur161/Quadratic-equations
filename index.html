@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="content-container">
+        <h1 class="title">
+            Решение квадратных уравнений <br> онлайн
+        </h1>
+        <p class="input-text">Введите ваши коэффициенты:</p>
+        <form class="input-container">
+            <label for="">a</label> <input class="input-value" id="valueA" type="text">
+            <label for="">b</label> <input class="input-value" id="valueB" type="text">
+            <label for="">c</label> <input class="input-value" id="valueC" type="text">
+        </form>
+        <button class="input-btn" id="btn">Решить!</button>
+    </div>
+    <div class="solve-container none">
+        <h2 class="solve-title">Ответ</h2>
+        <div class="solve-content-container">
+            <p class="text" id="equation">Ваше уравнение:</p>
+            <p class="text" id="answer">Корни:</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
